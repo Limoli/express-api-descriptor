@@ -1,0 +1,16 @@
+{
+  "name": "express-api-descriptor",
+  "version": "1.0.3",
+  "description": "Provide a simple, fast and customizable system to manage API documentation using Express framework.",
+  "keywords": [
+    "Express",
+    "Api",
+    "Documentation",
+    "Entities",
+    "Rest",
+    "Restful"
+  ],
+  "main": "index.js",
+  "author": "Andreas Limoli",
+  "license": "ISC"
+}

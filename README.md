@@ -92,6 +92,11 @@ app.listen(8080, function () {
 });
 ```
 
+#Installation
+```sh
+npm i express-api-descriptor
+```
+
 ### Last updates
 
 From Version 1.0.3

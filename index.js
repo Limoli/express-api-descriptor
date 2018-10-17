@@ -1,8 +1,8 @@
 /*
- * Express-Api-Descriptor
- * Copyright(c) 2016 Andreas Limoli
- * ISC Licensed
- */
+    express-api-descriptor
+    Copyright(c) 2018 Andrea Limoli
+    MIT Licensed
+*/
 
 'use strict';
 

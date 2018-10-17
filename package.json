@@ -11,6 +11,10 @@
     "Restful"
   ],
   "main": "index.js",
-  "author": "Andreas Limoli",
-  "license": "ISC"
+  "author": "Andrea Limoli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/limoli/express-api-descriptor.git"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "express-api-descriptor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Provide a simple, fast and customizable system to manage API documentation using Express framework.",
   "keywords": [
     "Express",

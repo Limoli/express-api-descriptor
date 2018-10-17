@@ -92,7 +92,7 @@ app.listen(8080, function () {
 });
 ```
 
-#Installation
+# Installation
 ```sh
 npm i express-api-descriptor
 ```

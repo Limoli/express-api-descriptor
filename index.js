@@ -1,9 +1,11 @@
 /*
     express-api-descriptor
-    Copyright(c) 2018 Andrea Limoli
+    Copyright(c) 2017 Andrea Limoli
     MIT Licensed
 */
 
-'use strict';
+import Descriptor from "./lib/descriptor";
 
-module.exports = require('./lib/descriptor');
+export {
+    Descriptor
+}

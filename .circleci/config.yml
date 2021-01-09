@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------
+# | This CI branch has being developed just for learning purpose. |
+# -----------------------------------------------------------------
+
+version: 2.1
+
+jobs:
+
+  lint-library:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo "Lint library"
+
+  build-library:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo "Build library"
+
+workflows:
+  welcome:
+    jobs:
+      - lint-library
+      - build-library:
+          requires:
+            - lint-library

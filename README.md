@@ -1,5 +1,12 @@
+# An experiment
+The project was an experiment with the purpose to extend Express APIs in a hacky way in order to provide documentation 
+during runtime without any generation.
+Of course, it has a lot of limitations and is not suitable for real projects.
+
+Please, consider to use the [Swagger](https://swagger.io/) library.
+
 # Simple, fast and customizable
-In descriptor you can add the **object** representing the parameters that you need.
+In descriptor, you can add the **object** representing the parameters that you need.
 ```sh
 app.get('/books', function (req, res) {
     res.send("My fantastic book");
